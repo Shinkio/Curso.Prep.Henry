@@ -1,0 +1,19 @@
+Una variable es una manera de guardar el valor de algo que puede ser usado en otro momento.
+Para crear una variable en JavaScript usaremos la palabra clave "var" con un espacio al lado y el nombre de la variable, ya que con este nombre podremos hacer referencia a la variante después. También podemos agregarle el sigo = para darle un valor.
+Hay que formas de declarar una variable:
+var nombre = "Juan";
+let apellido = "Perez";
+const comidafavorita = "Pizza";
+Con var declaramos una variable, esta es una palabra clave genérica para "variable".
+let es una palabra que asignara una variable como lo hace var pero con un comportamiento distinto. 
+const es una variable que no se puede cambiar. Es una abreviatura de "constante".
+
+Las Strings son bloques de texto que se definen entre comillas, da igual si son simples o dobles. Cualquier texto que se escriba entre comillas es una string o cadena.
+Los boolean (booleanos) es un concepto que se basa en el código binario (0001 0110...). Básicamente significa que tiene dos opciones, activar o desactivar, 0 o 1, verdadero o falso. En JavaScript se utiliza en true o false.
+
+Argumentos:
+Ya cuando se puede ejecutar funciones básicas, se puede comenzar a pasarle argumentos. Si se le agrega una variable a los paréntesis cuando declaramos la función, podemos usar esta variable dentro de una función. El valor de esta variable se inicia cuando la llamamos pasandola a la funcion. 
+Con la declaración "return" podemos darle una forma de escape a los datos de una función, No podemos acceder a nada mas que lo que se devuelve fuera de la función. Cuando una función llega a una declaración de retorno, la función deja de hacer lo que está haciendo y "devuelve" lo indicado.
+
+Para que una función verifique si algo es true (concepto booleano que vimos antes) se puede utilizar la palabra clave "if", la cual permite darle una condicional a la función y le permite saber si puede avanzar o detenerse. 
+
